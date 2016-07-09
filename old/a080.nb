@@ -1,0 +1,85 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2146,         75]
+NotebookOptionsPosition[      1703,         55]
+NotebookOutlinePosition[      2050,         70]
+CellTagsIndexPosition[      2007,         67]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"Total", "[", 
+    RowBox[{"IntegerDigits", "[", 
+     RowBox[{"Floor", "[", 
+      RowBox[{
+       RowBox[{"Sqrt", "[", "x", "]"}], "*", 
+       RowBox[{"10", "^", "99"}]}], "]"}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "2", ",", "99"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.493495012580114*^9, 3.493495014032636*^9}, {
+  3.493497633409876*^9, 3.4934976638403435`*^9}, {3.4934977734845276`*^9, 
+  3.4934978505982122`*^9}, {3.493497893598872*^9, 3.493497896356415*^9}, {
+  3.493498003855566*^9, 3.4934980121181927`*^9}, {3.4934982868974133`*^9, 
+  3.4934983165928698`*^9}}],
+
+Cell[BoxData["40930"], "Output",
+ CellChangeTimes->{3.4935079723401065`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"40930", "-", "2", "-", "3", "-", "4", "-", "5", "-", "6", "-", "7", 
+  "-", "8", "-", "9"}]], "Input",
+ CellChangeTimes->{{3.493498355093461*^9, 3.493498358846019*^9}, {
+  3.4934984118418326`*^9, 3.493498418335433*^9}}],
+
+Cell[BoxData["40886"], "Output",
+ CellChangeTimes->{3.493498359416027*^9, 3.493498419047944*^9}]
+}, Open  ]]
+},
+WindowSize->{601, 750},
+WindowMargins->{{Automatic, 110}, {-32, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (64-bit) (February 18, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 662, 15, 31, "Input"],
+Cell[1232, 39, 76, 1, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1345, 45, 243, 4, 31, InheritFromParent],
+Cell[1591, 51, 96, 1, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

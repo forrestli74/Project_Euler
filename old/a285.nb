@@ -1,0 +1,154 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3901,        145]
+NotebookOptionsPosition[      3497,        127]
+NotebookOutlinePosition[      3840,        142]
+CellTagsIndexPosition[      3797,        139]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"p285", "[", "k_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Pi", "/", "2"}], "-", 
+          RowBox[{"2", "*", 
+           RowBox[{"ArcSin", "[", 
+            RowBox[{"1", "/", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", 
+               RowBox[{"1", "/", "2"}]}], ")"}]}], "]"}]}]}], ")"}], "*", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"k", "+", 
+            RowBox[{"1", "/", "2"}]}], ")"}], "^", "2"}], "/", "2"}]}], "-", 
+       RowBox[{"Sqrt", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"k", "+", 
+            RowBox[{"1", "/", "2"}]}], ")"}], "^", "2"}], "-", "1"}], "]"}], 
+       "+", "1"}], ")"}], "-", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Pi", "/", "2"}], "-", 
+          RowBox[{"2", "*", 
+           RowBox[{"ArcSin", "[", 
+            RowBox[{"1", "/", 
+             RowBox[{"(", 
+              RowBox[{"k", "-", 
+               RowBox[{"1", "/", "2"}]}], ")"}]}], "]"}]}]}], ")"}], "*", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"k", "-", 
+            RowBox[{"1", "/", "2"}]}], ")"}], "^", "2"}], "/", "2"}]}], "-", 
+       RowBox[{"Sqrt", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"k", "-", 
+            RowBox[{"1", "/", "2"}]}], ")"}], "^", "2"}], "-", "1"}], "]"}], 
+       "+", "1"}], ")"}]}], ")"}], "/", 
+   RowBox[{"k", "^", "2"}]}]}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"k285", "=", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"Pi", "/", "2"}], "-", 
+       RowBox[{"2", "*", 
+        RowBox[{"ArcSin", "[", 
+         RowBox[{"2", "/", "3"}], "]"}]}]}], ")"}], "*", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"3", "/", "2"}], ")"}], "^", "2"}], "/", "2"}]}], "-", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"3", "/", "2"}], ")"}], "^", "2"}], "-", "1"}], "]"}], "+", 
+    "1"}], ")"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  FractionBox[
+   SqrtBox["5"], "2"], "+", 
+  RowBox[{
+   FractionBox["9", "8"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     FractionBox["\[Pi]", "2"], "-", 
+     RowBox[{"2", " ", 
+      RowBox[{"ArcSin", "[", 
+       FractionBox["2", "3"], "]"}]}]}], ")"}]}]}]], "Output",
+ CellChangeTimes->{3.484350690775308*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{"x", "*", 
+     RowBox[{"N", "[", 
+      RowBox[{
+       RowBox[{"p285", "[", "x", "]"}], ",", "11"}], "]"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "2", ",", 
+      RowBox[{"10", "^", "5"}]}], "}"}]}], "]"}], "+", "k285"}]], "Input"]
+},
+WindowSize->{601, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Microsoft Windows (64-bit) (February 18, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 1672, 54, 112, "Input"],
+Cell[CellGroupData[{
+Cell[2242, 78, 571, 20, 31, "Input"],
+Cell[2816, 100, 347, 12, 50, "Output"]
+}, Open  ]],
+Cell[3178, 115, 315, 10, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
